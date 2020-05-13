@@ -34,7 +34,6 @@ class App extends Component {
     );
 
     this.setState({ user: res.data, loading: false });
-    console.log(this.state.user);
   };
 
   getUserRepos = async (user) => {
@@ -44,7 +43,6 @@ class App extends Component {
     );
 
     this.setState({ repos: res.data, loading: false });
-    console.log(this.state.user);
   };
 
   clearUsers = () => {
