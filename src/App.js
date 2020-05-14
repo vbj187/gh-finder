@@ -14,7 +14,7 @@ const App = () => {
   const [user, setUser] = useState({});
   const [repos, setRepos] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [alert, setAlert] = useState({});
+  const [alert, setAlert] = useState(null);
 
   const searchUsers = async (text) => {
     setLoading(true);
